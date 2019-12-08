@@ -1,0 +1,351 @@
+html, body{margin:0px; padding:0px;}
+
+body{
+    background-color: rgb(255,255,255);
+}    
+
+header {
+    height: 30%;
+    padding-bottom: 0;
+}
+
+.logo {
+    margin-left: 1em;
+    display: block;
+    /*    margin-left: auto;*/
+    /*    margin-right: auto;*/
+    width:100%;
+    margin-top: 1em;
+    /*align-content: center;*/
+    max-width: 60em;
+}
+
+.logo img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none; 
+}
+
+/*background color for menu bar*/
+nav {
+    background: rgb(255,255,255);
+    min-height: 2em;
+/*    border-color: rgb(69,51,44);*/
+    border-color: rgb(255,255,255);
+    border-style: solid;
+    border-style: solid;
+    width: 100%;
+    align-content: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline;
+    margin: 0 auto;
+    padding: .19em;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 0em;
+    padding-right: 1em;
+    text-decoration: none;
+    display: inline;
+    font-size: 1.5em;
+}
+
+a:hover{
+    color:rgb(0, 228, 197);
+}
+
+nav li.selected a {
+    /*color: rgb(0, 204, 102);*/
+    color: rgb(0, 204, 177);
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(0,0,0);    
+}
+
+nav ul {
+/*    max-width: 100%;*/
+    font-family: ambroise-std, serif;
+    clear: both;
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left:1em;
+    text-align: center;
+}
+
+.nav {
+    align-content: center;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a{
+    color: rgb(0,0,0);    
+    font-family: 'Lora', serif;
+}
+
+
+.header, .maincontent{
+    clear: both;
+}
+
+.maincontent img{
+/*
+    clear: both;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 0.2em;   
+    margin-left: auto;
+    margin-right: auto;
+*/
+    
+    clear: both;
+    margin-left: 1em;
+    margin-right: 1em;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*image no longer centered if change to normal width and height*/
+    max-width: 29em;
+    margin-top: 1em;
+}
+
+
+.award{
+    max-width: 30em;
+}
+
+@media only screen and (min-width: 100em){
+    .homeimage{
+        width: 200%;
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width: 40em){
+    .logo{
+        max-width: 30em;
+    }
+     .menu{
+        max-width: 40%;
+    }
+    .content{
+        max-width: 60em;
+    }
+      .maincontent img{
+        max-width: 40em;
+    }
+}
+
+
+@media only screen and (min-width: 38em){
+
+}
+
+@media only screen and (min-width: 60em){
+    .maincontent{
+/*        max-width: 6*/
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+
+    h1{
+        font-size: 5em;
+        padding-left: 6em;
+    }
+    
+    .textoverimage{
+        clear: both;
+        align-content: center;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 100%;
+    }
+}
+@media only screen and (min-width: 10em){
+
+    .menu{
+        background-color: rgb(55,40,34);
+        margin-left: 1em;
+        padding-bottom: 1em;
+        padding-left: 2em;
+        padding-right: 5em;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 100em){
+    nav{
+        max-height: 5em;
+        padding: 0em;
+        max-width: 100em;
+    }
+    nav li{
+        padding-left: 1.1em;
+        padding-right: 1.1em;
+    }
+    nav ul{
+        font-size: 1.2em;
+    }
+
+}
+
+.textoverimage{
+    clear: both;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    align-content: center;
+    background-image: url(images/MOdealer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*image no longer centered if change to normal width and height*/
+    max-width: 100%;
+    max-height: 80%;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-bottom: 4em;
+    padding-right: 5em;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+h2, h3, h4, h5{
+    font-size: 1.3em;
+}
+
+h1{
+    /*color: rgb(255, 217, 191);*/
+    color: rgb(0,0,0); ********************
+    align-content: center;
+    display: block;
+    padding-left: .4em;
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+h2{
+
+    margin-left: .5em;
+    /*color: rgb(255, 217, 191);*/
+    color: rgb(0,0,0);
+    font-size: 1.7em;
+}
+
+p{
+    margin-left: 1em;
+    color: rgb(100,100,100);
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.menu{
+    background-color: rgb(200,200,200);
+    padding-bottom: 1em;
+
+}
+
+.menuright{
+    background-color: rgb(255,255,255);
+    margin-left: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    border: 5px;
+    border-radius: 8px;
+    width: 70%;
+}
+
+.menu p{
+    color:rgb(0,0,0);
+/*    color:rgb(111, 81, 68);*/
+}
+
+
+
+.menu h3{
+    color:rgb(0,0,0);
+}
+
+
+.menu h2{
+    color:rgb(0,0,0);
+    padding-top: 1em;
+}
+
+
+.menu ul{
+    list-style-type: none;
+}
+
+.mapouter{
+    margin: auto;
+/*
+    align-content: center;
+    display: inline;
+*/
+    width: 100%;
+}
+
+address{
+    margin-top: .7em;
+    margin-bottom: 1.4em;
+    padding: 0em;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+.maincontactinfo p {
+    color: rgb(0,0,0));
+}
+
+h6{
+    color: rgb(0,0,0);
+    font-size: .7em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    padding: 1em;
+}
+
+.content{
+    width:100%;
+    margin: auto;
+}
+
+figcaption{
+    
+    color: rgb(0,0,0);
+    font-size: .8em;
+    font-family: 'Montserrat', sans-serif;
+}
+}
